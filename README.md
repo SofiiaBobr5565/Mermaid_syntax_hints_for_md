@@ -1,5 +1,5 @@
-# mytest  
-## mermaid  
+ # mermaid  
+ ## Формы:
   
  ```mermaid
 flowchart TB
@@ -16,4 +16,21 @@ flowchart TB
   node11[\Форма 11\]
   node12[/Форма 12\]
   node13[\Форма 13/]
+```
+## Размещение текста:  
+
+```mermaid
+flowchart LR
+    id1["Это текст (а вот это могло сломать рендеринг), но у нас есть экранирование"]  
+```
+## Узлы:  
+
+```mermaid
+flowchart TB
+А --> B
+C --- D
+E -.-> F
+G ==> H
+I --o J
+K --x L
 ```

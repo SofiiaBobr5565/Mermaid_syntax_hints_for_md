@@ -1,10 +1,9 @@
 # mytest  
 ## mermaid  
   
-  ```mermaid
-flowchart LR
-    Start --> Stop  
-    
-flowchart LR
-    A-->|text|B
+ ```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```

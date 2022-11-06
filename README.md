@@ -34,3 +34,14 @@ G ==> H
 I --o J
 K --x L
 ```
+## Текст на стрелочке:  
+
+```mermaid
+flowchart TD
+    A-- Text ---B
+    C---|Text|D 
+    E-->|text|F 
+    G-- text -->H 
+    I-. text .-> J 
+    K == text ==> L
+```

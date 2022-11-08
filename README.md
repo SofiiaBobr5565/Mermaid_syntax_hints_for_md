@@ -63,4 +63,5 @@ flowchart TB
 ```mermaid
 flowchart TB
 node8{условие}
+А --> B
 ```

@@ -62,5 +62,5 @@ flowchart TB
 ## test  
 ```mermaid
 flowchart TB
-{условие}--> |text|[выполнение]
+{условие}--> |text|["выполнение"]
 ```

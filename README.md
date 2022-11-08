@@ -62,9 +62,11 @@ flowchart TB
 ## test  
 ```mermaid
 flowchart TB
-style id1 fill:#3f3,stroke:#333,stroke-width:4px
-style id2 fill:#FF00FF,stroke:#333,stroke-width:4px,color:#fff,stroke-dasharray: 12 5
-node8{какое-то условие}--> |text|id1["чуть более длинный текст"] & id2["ну типа тут тоже длинно"]--> id3["типа получилось"]
+style i1 fill:#3f3,stroke:#333,stroke-width:4px
+style i2 fill:#FF00FF,stroke:#333,stroke-width:4px,color:#fff,stroke-dasharray: 12 5
+b{какое-то условие}
+b--> |yes|i1["чуть более длинный текст"]--> i3["типа получилось"]
+b--> |no|i2["ну типа тут тоже длинно"]--> i3
 ```
 ## test  
 ```mermaid  

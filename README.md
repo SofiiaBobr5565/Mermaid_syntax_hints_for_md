@@ -62,7 +62,7 @@ flowchart TB
 ## test  
 ```mermaid
 flowchart TB
-style i1 fill:#3f3,stroke:#333,stroke-width:4px
+style i1 fill:#3CB371,stroke:#333,stroke-width:4px
 style i2 fill:#FF00FF,stroke:#333,stroke-width:4px,color:#fff,stroke-dasharray: 12 5
 b{какое-то условие}
 b--> |yes|i1["чуть более длинный текст"]--> i3["типа получилось"]

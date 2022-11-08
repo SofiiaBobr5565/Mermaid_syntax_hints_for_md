@@ -59,3 +59,8 @@ flowchart TB
     c1-->c2
     end
 ```
+## test  
+```mermaid
+flowchart TB
+node8{условие}-- [так] --> [выполнение]
+```

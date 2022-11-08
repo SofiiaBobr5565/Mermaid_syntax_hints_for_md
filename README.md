@@ -62,5 +62,5 @@ flowchart TB
 ## test  
 ```mermaid
 flowchart TB
-node8{условие}--> id1["текст"] & ["текст2"]
+node8{условие}--> id1["текст"] & id2["текст2"]
 ```

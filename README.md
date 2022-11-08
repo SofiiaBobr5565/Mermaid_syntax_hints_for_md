@@ -62,6 +62,5 @@ flowchart TB
 ## test  
 ```mermaid
 flowchart TB
-node8{условие}
-А --> B
+node8{условие} --> B
 ```

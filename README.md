@@ -64,5 +64,5 @@ flowchart TB
 flowchart TB
 style id1 fill:#3f3,stroke:#333,stroke-width:4px
 style id2 fill:#FF00FF,stroke:#333,stroke-width:4px,color:#fff,stroke-dasharray: 12 5
-node8{какое-то условие}--> |text|id1["чуть более длинный текст"] & id2["ну типа тут тоже длинно"]--> id3["типа получилось"]
+node8{какое-то условие}--> id1["чуть более длинный текст"] & |text|id2["ну типа тут тоже длинно"]--> id3["типа получилось"]
 ```

@@ -62,5 +62,6 @@ flowchart TB
 ## test  
 ```mermaid
 flowchart TB
+style id1 fill:#3f3,stroke:#333,stroke-width:4px
 node8{какое-то условие}--> id1["чуть более длинный текст"] & id2["ну типа тут тоже длинно"]--> id3["типа получилось"]
 ```

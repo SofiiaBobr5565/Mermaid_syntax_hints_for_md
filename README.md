@@ -65,8 +65,8 @@ flowchart TB
 style i1 fill:#483D8B,stroke:#4B0082,stroke-width:4px
 style i2 fill:#BA55D3,stroke:DarkMagenta,stroke-width:4px,color:#FFFFFF
 b{какое-то условие}
-b--> |yes|i1["текст"]--> i3["типа получилось"]
-b--> |no|i2["тоже текст"]--> i3
+b--> |yes|i1["текст в фиолетовом"]--> i3["типа получилось"]
+b--> |no|i2["текст в розовом"]--> i3
 ```
 ## test  
 ```mermaid  

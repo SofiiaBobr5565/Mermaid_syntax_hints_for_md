@@ -21,8 +21,17 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    id1["Это текст (а вот это могло сломать рендеринг), но у нас есть экранирование"]  
+    id1["Это текст, он в кавычках, чтобы ничего не сломалось (★‿★) "]  
 ```
+## Ориентация:  
+```    
+    TB - top to bottom
+    TD - top-down/ same as top to bottom
+    BT - bottom to top
+    RL - right to left
+    LR - left to right
+```
+
 ## Узлы:  
 
 ```mermaid
@@ -45,7 +54,7 @@ flowchart TD
     I-. text .-> J 
     K == text ==> L
 ```
-## Под блок-схемы
+## Под блок-схемы:
 ```mermaid
 flowchart TB
     c1-->a2
@@ -59,16 +68,7 @@ flowchart TB
     c1-->c2
     end
 ```
-## test  
-```mermaid
-flowchart TB
-style i1 fill:#483D8B,stroke:#4B0082,stroke-width:4px
-style i2 fill:#BA55D3,stroke:DarkMagenta,stroke-width:4px,color:#FFFFFF
-b{какое-то условие}
-b--> |yes|i1["текст в фиолетовом"]--> i3["типа получилось"]
-b--> |no|i2["текст в розовом"]--> i3
-```
-## test  
+## Условие  
 ```mermaid  
 flowchart TD
     A[Start] --> B{Is it?}
@@ -77,3 +77,26 @@ flowchart TD
     D --> B
     B ---->|No| E[End]
 ```
+## Условие + цвета   
+Используем цвета HTML  
+P.S. подходит как имя цвета так и шестнадцатеричное представление цвета в RGB
+```mermaid
+flowchart TB
+style b color:SpringGreen
+style i1 fill:#483D8B,stroke:#4B0082,stroke-width:4px
+style i2 fill:#BA55D3,stroke:DarkMagenta,stroke-width:4px,color:#FFFFFF
+style i3 fill:#008080,stroke:#00CED1,stroke-width:4px,stroke-dasharray: 12 5
+b{бирюзовое условие}
+b--> |yes|i1["текст в фиолетовом"]--> i3["текст в голубом + пунктир"]
+b--> |no|i2["текст в розовом"]--> i3
+```  
+    fill — заливка;
+
+    stroke — цвет границы;
+
+    stroke-width — толщина границы;
+
+    color — цвет текста;
+
+    stroke-dasharray — пунктирная граница.
+

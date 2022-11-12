@@ -134,9 +134,12 @@ flowchart TB
     style i1 fill:#483D8B,stroke:#4B0082,stroke-width:4px
     style i2 fill:#BA55D3,stroke:DarkMagenta,stroke-width:4px,color:#FFFFFF
     style i3 fill:#008080,stroke:#00CED1,stroke-width:4px,stroke-dasharray: 12 5
+    style f  fill:#FA8072,stroke:#DC143C,stroke-width:4px,color:#DC143C,stroke-dasharray: 12 5
     b{бирюзовое условие}
+    a(["обычное начало"])-->b
     b--> |yes|i1["текст в фиолетовом"]--> i3["текст в голубом + пунктир"]
     b--> |no|i2["текст в розовом"]--> i3
+    i3-->f(["прикольный конец"])
 ```  
     fill — заливка;
 

@@ -150,10 +150,11 @@ flowchart TB
     color — цвет текста;
 
     stroke-dasharray — пунктирная граница.
-## Еще одна блок-схема в цвете    
+## Еще одна блок-схема в цвете  
+(Что-то с намеком на Гипотезу Коллатца)
 ```mermaid
 flowchart TB
-classDef s1 fill:#7FFFD4, stroke:#000, stroke-width:4px
+classDef s1 fill:#DDA0DD, stroke:#8B008B,color:#8B008B, stroke-width:4px
      a(["начало"]):::s1
      b[/Ввод а/]:::s1
      a-->b-->c{"a-четное?"}:::s1

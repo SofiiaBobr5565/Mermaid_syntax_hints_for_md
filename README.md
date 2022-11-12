@@ -54,6 +54,29 @@ flowchart TD
     I-. text .-> J 
     K == text ==> L
 ```
+## Cоединения:  
+```mermaid
+flowchart LR
+   A -- text --> B -- text2 --> C
+```
+## Cоединения 2:  
+```mermaid
+flowchart LR
+   a --> b & c--> d
+```
+## Cоединения 3:  
+```mermaid
+flowchart TB
+    A & B--> C & D
+```
+## Cоединения 3(альтернативная запись):  
+```mermaid
+flowchart TB
+    A --> C
+    A --> D
+    B --> C
+    B --> D
+```
 ## Подблок-схемы:
 ```mermaid
 flowchart TB

@@ -130,7 +130,7 @@ flowchart TD
 P.S. подходит как имя цвета так и шестнадцатеричное представление цвета в RGB
 ```mermaid
 flowchart TB
-    style b color:SpringGreen
+    style b color:SpringGreen,stroke:MediumSpringGreen,stroke-width:4px
     style i1 fill:#483D8B,stroke:#4B0082,stroke-width:4px
     style i2 fill:#BA55D3,stroke:DarkMagenta,stroke-width:4px,color:#FFFFFF
     style i3 fill:#008080,stroke:#00CED1,stroke-width:4px,stroke-dasharray: 12 5

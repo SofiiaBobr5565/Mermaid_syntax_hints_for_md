@@ -157,7 +157,7 @@ flowchart TB
 classDef s1 fill:#DDA0DD, stroke:#8B008B,color:#8B008B, stroke-width:4px
      a(["начало"]):::s1
      b[/Ввод а/]:::s1
-     a-->b-->c{"a-четное?"}:::s1
+     a-->b-->c{"a-нечетное?"}:::s1
      c-->|да| f[a=a*3+1]:::s1
      c-->|нет| g[a=a/2]:::s1
      f-->d[/Вывод а/]:::s1

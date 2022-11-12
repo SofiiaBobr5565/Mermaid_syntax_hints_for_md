@@ -1,4 +1,4 @@
- # mermaid  
+ # mermaid flowcharts 
  ## Формы:
   
  ```mermaid
@@ -150,4 +150,26 @@ flowchart TB
     color — цвет текста;
 
     stroke-dasharray — пунктирная граница.
+## Еще одна блок-схема в цвете    
+```mermaid
+flowchart TB
+classDef s1 fill:#7FFFD4, stroke:#000, stroke-width:4px
+     a(["начало"]):::s1
+     b[/Ввод а/]:::s1
+     a-->b-->c{"a-четное?"}:::s1
+     c-->|да| f[a=a*3+1]:::s1
+     c-->|нет| g[a=a/2]:::s1
+     f-->d[/Вывод а/]:::s1
+     g-->d[/Вывод а/]
+     d-->h(["конец"]):::s1
+```
+
+
+
+
+
+
+
+
+
 

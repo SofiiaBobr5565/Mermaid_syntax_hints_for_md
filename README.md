@@ -77,7 +77,7 @@ flowchart TB
     B --> C
     B --> D
 ```
-## Подблок-схемы:
+## Subgraphs:
 ```mermaid
 flowchart TB
     c1-->a2
@@ -91,7 +91,7 @@ flowchart TB
     c1-->c2
     end
 ```
-## Подблок-схемы 2:  
+## Subgraphs 2:  
 ```mermaid
 flowchart TB
     c1-->a2
@@ -99,7 +99,7 @@ flowchart TB
     a1-->a2
     end
 ```
-## Подблок-схемы 3:  
+## Subgraphs 3:  
 ```mermaid
 flowchart TB
     c1-->a2

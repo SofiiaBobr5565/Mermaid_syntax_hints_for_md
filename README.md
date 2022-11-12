@@ -54,7 +54,7 @@ flowchart TD
     I-. text .-> J 
     K == text ==> L
 ```
-## Под блок-схемы:
+## Подблок-схемы:
 ```mermaid
 flowchart TB
     c1-->a2
@@ -67,6 +67,31 @@ flowchart TB
     subgraph three
     c1-->c2
     end
+```
+## Подблок-схемы 2:  
+```mermaid
+flowchart TB
+    c1-->a2
+    subgraph ide1 [one]
+    a1-->a2
+    end
+```
+## Подблок-схемы 3:  
+```mermaid
+flowchart TB
+    c1-->a2
+    subgraph one
+    a1-->a2
+    end
+    subgraph two
+    b1-->b2
+    end
+    subgraph three
+    c1-->c2
+    end
+    one --> two
+    three --> two
+    two --> c2
 ```
 ## Условие  
 ```mermaid  
